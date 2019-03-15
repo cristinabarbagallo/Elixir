@@ -1,0 +1,38 @@
+//Flexbox mixin
+
+@mixin flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin align-items {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@mixin justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+//Images settings
+
+@mixin image {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+//Animation of the arrow
+
+@mixin arrowBounce {
+    
+}
